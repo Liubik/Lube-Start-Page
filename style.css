@@ -1,0 +1,55 @@
+#main {
+   font-family: Comfortaa;
+ }
+ 
+body{
+   background-image: url("anime.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+
+#box1{
+   position: relative;
+   display: block;
+   opacity: 0.6;
+   background-image: linear-gradient(to right, pink, rgb(243, 186, 110));
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   margin-top: 325px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#yt {
+   width: 40%;
+   margin-top: 20px;
+   margin-left: -5px;
+   transition: transform 0.1s ease-in-out;
+ }
+ 
+#yt:hover{
+   transform: scale(1.1);
+}
+#steam {
+   position:absolute;
+   width: 28%;
+   margin-top: 2px;
+   margin-left: -5px;
+   transition: transform 0.1s ease-in-out;
+ }
+ 
+#steam:hover{
+   transform: scale(1.1);
+}
+#reddit {
+   position:absolute;
+   width: 25%;
+   margin-top: 10px;
+   margin-left: 150px;
+   transition: transform 0.1s ease-in-out;
+ }
+ 
+#reddit:hover{
+   transform: scale(1.12);
+}
